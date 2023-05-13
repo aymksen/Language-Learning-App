@@ -218,7 +218,7 @@ function Letters2() {
       )}
 
       <h2 className="backbtn">
-        <Link to="/">Home</Link>
+        <Link to="/Language-Learning-App">Home</Link>
       </h2>
     </div>
   );
