@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  background: linear-gradient(to bottom, rgb(2, 34, 109), rgb(255, 255, 255));
+
+  background: linear-gradient(174deg, #007061, #059aa5);
+  background-size: 400% 400%;
+
+  animation: grad 5s ease infinite;
+  font-family: "Poppins", sans-serif;
+}
+
+@keyframes grad {
+  0% {
+    background-position: 53% 0%;
+  }
+  50% {
+    background-position: 48% 100%;
+  }
+  100% {
+    background-position: 53% 0%;
+  }
+}
+.App {
+  text-align: center;
+  height: 100vh;
+  color: white;
+  overflow: hidden;
+}
+
+.header {
+  padding: 1.5rem;
+  margin-bottom: 0rem;
+  margin-top: 1rem;
+}
+
+.title {
+  margin-top: 140px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.actletter {
+  font-family: "Almarai", sans-serif;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contcont {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cont {
+  margin-top: 150px;
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+
+.btn {
+  font-family: "Poppins", "Almarai", sans-serif;
+  display: block;
+  width: 12rem;
+  height: auto;
+  background-color: rgb(15, 23, 42);
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  color: white;
+  padding: 18px 25px 18px 25px;
+  cursor: pointer;
+  color: #000;
+  background-color: #abdfaf;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+
+  outline: none;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #3fc99b;
+  box-shadow: 0px 15px 20px rgba(7, 14, 12, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.error {
+  background-color: red;
+  margin-top: 8rem;
+  font-size: 1.875rem;
+  line-height: 2rem;
+  font-family: "Poppins", "Almarai", sans-serif;
+  position: fixed;
+  bottom: 0px;
+  width: 100vw;
+  height: 10vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .challenges {
+      margin-top: 100px;
+  }
+
+  .score {
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .btn {
+    width: 7rem;
+    height: 4rem;
+    font-size: 1.25rem;
+  }
+  .error {
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 0rem;
+    height: 30px;
+  }
+  .actletter {
+    font-family: "Almarai", sans-serif;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 500;
+    margin-bottom: 0rem;
+  }
+}
+
+.score {
+  margin-top: 180px;
+}
+
+.lvltitle {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  color: rgb(138, 255, 187);
+  font-size: 25px;
+}
+.backbtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  a {
+    color: rgb(156, 238, 204);
+    transition: all 0.4s;
+    &:hover {
+      color: rgb(255, 255, 255);
+      transition: all 0.4s;
+    }
+  }
+}
+
+.challenges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  overflow: hidden;
+  font-size: calc(35px + 2vw);
+  font-weight: 500;
+  -webkit-text-stroke: 1px rgb(201, 255, 201);
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+}
+.level {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 35px;
+  background-color: rgb(175, 223, 189);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #002203;
+  margin-top: 70px;
+}
+.cont1 {
+  margin-top: 50px;
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  gap: 20px;
+}
+
+.quizz {
+  color: rgb(19, 66, 0);
+  background-color: #abdfaf;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  h2 {
+    font-style: italic;
+    font-size: 40px;
+  }
+  h3 {
+    font-style: italic;
+    font-size: 15px;
+    color: black;
+  }
+}
+.footer{
+  height: 80px;
+}
