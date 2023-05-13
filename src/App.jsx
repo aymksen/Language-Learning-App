@@ -19,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/">
+        <Route path="/Language-Learning-App/">
           <Route index element={<Home />} />
           <Route path="Letters1" element={<Letters1 />} />
           <Route path="Letters2" element={<Letters2 />} />

@@ -25,19 +25,19 @@ function Home() {
       <h1 className="level">Letters</h1>
 
       <div className="cont1">
-        <Link to="/Letters1" className="btn quizz">
+        <Link to="/Language-Learning-App/Letters1" className="btn quizz">
           <h2>Part 1</h2>
           <h3>score :{l1}/7</h3>
         </Link>
-        <Link to="/Letters2" className="btn quizz">
+        <Link to="/Language-Learning-App/Letters2" className="btn quizz">
           <h2>Part 2</h2>
           <h3>score :{l2}/7</h3>
         </Link>
-        <Link to="/Letters3" className="btn quizz">
+        <Link to="/Language-Learning-App/Letters3" className="btn quizz">
           <h2>Part 3</h2>
           <h3>score :{l3}/7</h3>
         </Link>
-        <Link to="/Letters4" className="btn quizz">
+        <Link to="/Language-Learning-App/Letters4" className="btn quizz">
           <h2>Part 4</h2>
           <h3>score :{l4}/7</h3>
         </Link>
@@ -46,15 +46,15 @@ function Home() {
       <h1 className="level">Numbers</h1>
 
       <div className="cont1">
-        <Link to="/Numbers" className="btn quizz">
+        <Link to="/Language-Learning-App/Numbers" className="btn quizz">
           <h2>Part 1</h2>
           <h3>score :{n1}/10</h3>
         </Link>
-        <Link to="/Numbers2" className="btn quizz">
+        <Link to="/Language-Learning-App/Numbers2" className="btn quizz">
           <h2>Part 2</h2>
           <h3>score :{n2}/10</h3>
         </Link>
-        <Link to="/Numbers3" className="btn quizz">
+        <Link to="/Language-Learning-App/Numbers3" className="btn quizz">
           <h2>Part 3</h2>
           <h3>score :{n3}/10</h3>
         </Link>
@@ -63,7 +63,7 @@ function Home() {
       <h1 className="level">Days</h1>
 
       <div className="cont1">
-        <Link to="/Days" className="btn quizz">
+        <Link to="/Language-Learning-App/Days" className="btn quizz">
           <h2>Part 1</h2>
           <h3>score :{d1}/7</h3>
         </Link>
@@ -72,15 +72,15 @@ function Home() {
       <h1 className="level">Grammar</h1>
 
       <div className="cont1">
-        <Link to="/Grammar1" className="btn quizz">
+        <Link to="/Language-Learning-App/Grammar1" className="btn quizz">
           <h2>Part 1</h2>
           <h3>score :{g1}/10</h3>
         </Link>
-        <Link to="/Grammar2" className="btn quizz">
+        <Link to="/Language-Learning-App/Grammar2" className="btn quizz">
           <h2>Part 2</h2>
           <h3>score :{g2}/10</h3>
         </Link>
-        <Link to="/Grammar3" className="btn quizz">
+        <Link to="/Language-Learning-App/Grammar3" className="btn quizz">
           <h2>Part 3</h2>
           <h3>score :{g3}/10</h3>
         </Link>
@@ -89,7 +89,7 @@ function Home() {
       <h1 className="level">Colors</h1>
 
       <div className="cont1">
-        <Link to="/Colors" className="btn quizz">
+        <Link to="/Language-Learning-App/Colors" className="btn quizz">
           <h2>Part 1</h2>
           <h3>score :{c1}/10</h3>
         </Link>
