@@ -168,7 +168,7 @@ function Colors() {
     } else {
       setCurrStreak(currstreak + 1);
       c1 = currstreak;
-
+      localStorage.setItem("c1", c1);
       quizz.innerHTML = `<h1 className="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
       
     }
@@ -185,6 +185,7 @@ function Colors() {
       console.log("loss");
     } else {
       c1 = currstreak;
+      localStorage.setItem("c1", c1);
       quizz.innerHTML = `<h1 class="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
     }
   };

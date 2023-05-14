@@ -140,7 +140,7 @@ function Letters2() {
     } else {
       setCurrStreak(currstreak + 1);
       l2 = currstreak;
-
+      localStorage.setItem("l2", l2);
       quizz.innerHTML = `<h1 className="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
       
     }
@@ -158,6 +158,7 @@ function Letters2() {
     } else {
       l2 = currstreak;
       quizz.innerHTML = `<h1 class="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
+      localStorage.setItem("l2", l2);
     }
   };
 

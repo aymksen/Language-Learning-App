@@ -14,6 +14,8 @@ import Grammar1 from "./Components/Grammar1";
 import Grammar2 from "./Components/Grammar2";
 import Grammar3 from "./Components/Grammar3";
 import Colors from "./Components/Colors";
+import Login from './pages/Login';
+import Register from "./pages/Register";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Routes>
         <Route path="/Language-Learning-App/">
           <Route index element={<Home />} />
+          <Route path="Login" element={<Login />} />
+          <Route path="Register" element={<Register />} />
           <Route path="Letters1" element={<Letters1 />} />
           <Route path="Letters2" element={<Letters2 />} />
           <Route path="Letters3" element={<Letters3 />} />

@@ -142,6 +142,7 @@ function Letters1() {
       l1 = currstreak;
 
       quizz.innerHTML = `<h1 className="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
+      localStorage.setItem("l1", l1);
       
     }
   };
@@ -158,6 +159,7 @@ function Letters1() {
     } else {
       l1 = currstreak;
       quizz.innerHTML = `<h1 class="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
+      localStorage.setItem("l1", l1);
     }
   };
 
@@ -166,7 +168,7 @@ function Letters1() {
     setCurrStreak(1);
     setMaxStreak(7);
     setRandomletter();
-
+    l1 = (parseInt(localStorage.getItem("l1")) || 0);
     // eslint-disable-next-line
   }, []);
 

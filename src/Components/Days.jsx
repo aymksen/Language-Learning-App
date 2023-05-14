@@ -141,7 +141,7 @@ function Days() {
     } else {
       setCurrStreak(currstreak + 1);
       d1 = currstreak;
-
+      localStorage.setItem("d1", d1);
       quizz.innerHTML = `<h1 className="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
       
     }
@@ -158,6 +158,7 @@ function Days() {
       console.log("loss");
     } else {
       d1 = currstreak;
+      localStorage.setItem("d1", d1);
       quizz.innerHTML = `<h1 class="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
     }
   };

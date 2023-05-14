@@ -168,7 +168,7 @@ function Grammar3() {
     } else {
       setCurrStreak(currstreak + 1);
       g3 = currstreak;
-
+      localStorage.setItem("g3", g3);
       quizz.innerHTML = `<h1 className="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
       
     }
@@ -185,6 +185,7 @@ function Grammar3() {
       console.log("loss");
     } else {
       g3 = currstreak;
+      localStorage.setItem("g3", g3);
       quizz.innerHTML = `<h1 class="score"> You answered ${currstreak}/${maxStreak} questions correctly</h1>`;
     }
   };
