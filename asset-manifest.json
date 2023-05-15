@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Language-Learning-App/static/css/main.1413abb8.css",
+    "main.css": "/Language-Learning-App/static/css/main.f602cb8a.css",
     "main.js": "/Language-Learning-App/static/js/main.56917bdd.js",
     "index.html": "/Language-Learning-App/index.html",
-    "main.1413abb8.css.map": "/Language-Learning-App/static/css/main.1413abb8.css.map",
+    "main.f602cb8a.css.map": "/Language-Learning-App/static/css/main.f602cb8a.css.map",
     "main.56917bdd.js.map": "/Language-Learning-App/static/js/main.56917bdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.1413abb8.css",
+    "static/css/main.f602cb8a.css",
     "static/js/main.56917bdd.js"
   ]
 }
